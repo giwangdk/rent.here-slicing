@@ -10827,15 +10827,101 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
-  background-color: #1b2741 !important;
   font-family: 'Poppins', sans-serif;
 }
 
 nav {
-  background-color: #1b2741;
+  background-color: #E8F0F2;
 }
 
 nav .navbar-brand {
-  color: #DBE6FD;
+  color: #A2DBFA;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav ul li a {
+  color: #054553;
+  font-weight: 500;
+}
+
+nav ul li .btn-login {
+  background-color: #054553;
+  color: white;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+nav ul li .btn-register {
+  background-color: #A2DBFA;
+  color: white;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+main .hero {
+  background-color: #E8F0F2;
+  padding: 110px 0px 50px 0px;
+}
+
+main .hero .left-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+main .hero .left-section h1 {
+  color: #054553;
+  font-size: 58px;
+  font-weight: 700;
+}
+
+main .hero .left-section p {
+  color: #054553;
+  margin-top: 20px;
+}
+
+main .hero .left-section .btn-start {
+  background-color: #2086bd;
+  color: white;
+}
+
+main .hero .right-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .hero .right-section img {
+  width: 100%;
+  background-position: top;
 }
 /*# sourceMappingURL=main.css.map */
