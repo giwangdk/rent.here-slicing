@@ -10831,7 +10831,7 @@ body {
 }
 
 nav {
-  background-color: #E8F0F2;
+  background-color: #e4f3f7;
 }
 
 nav .navbar-brand {
@@ -10867,8 +10867,27 @@ nav ul li .btn-register {
   border-radius: 5px;
 }
 
+footer {
+  background-color: #054553;
+  padding: 30px 0;
+  margin-top: 80px;
+  color: white;
+}
+
+footer p {
+  font-size: 15px;
+  font-weight: thin;
+}
+
+main .badge-rental {
+  background-color: #A2DBFA;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 10px;
+}
+
 main .hero {
-  background-color: #E8F0F2;
+  background-color: #e4f3f7;
   padding: 110px 0px 50px 0px;
 }
 
@@ -10923,5 +10942,104 @@ main .hero .right-section {
 main .hero .right-section img {
   width: 100%;
   background-position: top;
+}
+
+main .how-it-works {
+  margin: 80px 0;
+}
+
+main .how-it-works h2 {
+  color: #054553;
+  font-weight: 600;
+}
+
+main .how-it-works .card {
+  background-color: #effaff;
+  border: 0px;
+  border-radius: 15px;
+  color: #054553;
+  text-align: center;
+}
+
+main .how-it-works .card i {
+  background-color: #A2DBFA;
+  padding: 20px;
+  margin: 25px 0 8px 0;
+  border-radius: 10px;
+  color: #054553;
+}
+
+main .why-us {
+  padding: 50px 0 20px 0;
+  background-color: #e4f3f7;
+}
+
+main .why-us .left-section img {
+  width: 100%;
+}
+
+main .why-us .right-section {
+  color: #054553;
+}
+
+main .why-us .right-section ul {
+  margin-left: 20px;
+}
+
+main .category {
+  margin: 80px 0 30px 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+main .category .card {
+  background-color: white;
+  border: 2px solid #A2DBFA;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+main .category .card .card-top {
+  padding-top: 30px;
+}
+
+main .category .card .card-top img {
+  border-radius: 15px;
+  padding: 0px;
+}
+
+main .category .card .card-body {
+  color: #054553;
+  text-decoration: none;
+  padding: 30px;
+}
+
+main .category .card:hover {
+  background-color: #054553;
+  border: none;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+main .category .card:hover .card-body {
+  color: white;
+  text-decoration: none;
+}
+
+main .cta {
+  padding: 80px 0 30px 0;
+}
+
+main .cta h2 {
+  font-size: 40px;
+  color: #054553;
+  font-weight: 500;
+}
+
+main .cta .btn-contact {
+  background-color: #2086bd;
+  border: none;
+  color: white;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=main.css.map */
