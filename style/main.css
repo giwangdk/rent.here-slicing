@@ -10830,15 +10830,15 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-nav {
+.nav {
   background-color: #e4f3f7;
 }
 
-nav .navbar-brand {
+.nav .navbar-brand {
   color: #A2DBFA;
 }
 
-nav ul {
+.nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10846,12 +10846,12 @@ nav ul {
       justify-content: space-around;
 }
 
-nav ul li a {
+.nav ul li a {
   color: #054553;
   font-weight: 500;
 }
 
-nav ul li .btn-login {
+.nav ul li .btn-login {
   background-color: #054553;
   color: white;
   font-size: 15px;
@@ -10859,7 +10859,7 @@ nav ul li .btn-login {
   border-radius: 5px;
 }
 
-nav ul li .btn-register {
+.nav ul li .btn-register {
   background-color: #A2DBFA;
   color: white;
   font-size: 15px;
@@ -11041,5 +11041,91 @@ main .cta .btn-contact {
   border: none;
   color: white;
   margin-top: 20px;
+}
+
+main .sign-in-page {
+  margin-top: 50px;
+}
+
+main .sign-in-page .left-section .card {
+  border: 0;
+  padding: 25px;
+  border-radius: 10px;
+  color: #054553;
+}
+
+main .sign-in-page .left-section .card h2 {
+  font-weight: 700;
+}
+
+main .sign-in-page .left-section .card form {
+  margin-top: 35px;
+}
+
+main .sign-in-page .left-section .card form label {
+  font-weight: 500;
+}
+
+main .sign-in-page .left-section .card form input {
+  border: 0;
+  background-color: #effaff;
+}
+
+main .sign-in-page .left-section .card form button {
+  background-color: #2086bd;
+  width: 100%;
+  color: white;
+  font-weight: 500;
+}
+
+main .sign-in-page .left-section .card .btn-register {
+  background-color: #A2DBFA;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+main .sign-up-page {
+  margin-top: 50px;
+}
+
+main .sign-up-page .left-section .card {
+  border: 0;
+  padding: 25px;
+  border-radius: 10px;
+  color: #054553;
+}
+
+main .sign-up-page .left-section .card h2 {
+  font-weight: 700;
+}
+
+main .sign-up-page .left-section .card form {
+  margin-top: 35px;
+}
+
+main .sign-up-page .left-section .card form label {
+  font-weight: 500;
+}
+
+main .sign-up-page .left-section .card form input {
+  border: 0;
+  background-color: #effaff;
+}
+
+main .sign-up-page .left-section .card form button {
+  background-color: #2086bd;
+  width: 100%;
+  color: white;
+  font-weight: 500;
+}
+
+main .sign-up-page .left-section .card .btn-login {
+  background-color: #A2DBFA;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  font-weight: 500;
 }
 /*# sourceMappingURL=main.css.map */
