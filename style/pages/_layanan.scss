@@ -1,0 +1,16 @@
+@import './../variables';
+
+.layanan-page{
+    .hero-layanan{
+        height: 60vh;
+        background-color: $whitBlue;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-size: 45px;
+            font-weight: 600;
+        }
+    }
+}

@@ -11153,4 +11153,23 @@ main .sign-up-page .left-section .card .btn-login {
   font-weight: 600;
   margin-bottom: 20px;
 }
+
+.layanan-page .hero-layanan {
+  height: 60vh;
+  background-color: #e4f3f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.layanan-page .hero-layanan h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
 /*# sourceMappingURL=main.css.map */
