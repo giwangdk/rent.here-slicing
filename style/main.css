@@ -11172,4 +11172,28 @@ main .sign-up-page .left-section .card .btn-login {
   font-size: 45px;
   font-weight: 600;
 }
+
+.layanan-page .list-cars .card-group .card {
+  border: none;
+  background-color: #A2DBFA;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.layanan-page .list-cars .card-group .card .card-top {
+  padding: 20px 20px 5px 20px;
+}
+
+.layanan-page .list-cars .card-group .card .card-top img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.layanan-page .list-cars .card-group .card .card-body {
+  padding: 10px 20px;
+}
+
+.layanan-page .list-cars .card-group .card .card-body h5 {
+  text-decoration: none;
+}
 /*# sourceMappingURL=main.css.map */
