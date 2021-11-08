@@ -11128,4 +11128,29 @@ main .sign-up-page .left-section .card .btn-login {
   color: white;
   font-weight: 500;
 }
+
+.about-page {
+  margin-top: 100px;
+}
+
+.about-page .about-section .right-section .card {
+  border: none;
+  background-color: #e4f3f7;
+  padding: 30px;
+  line-height: 24px;
+}
+
+.about-page .about-section .right-section .card h2 {
+  font-weight: 600;
+}
+
+.about-page .contact-section {
+  margin-top: 40px;
+}
+
+.about-page .contact-section h2 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=main.css.map */
